@@ -15,10 +15,10 @@ export const App = () => {
   return (
     <div>
       <header>
-        <h2>Dogアプリ</h2>
+        <h2 className='title'>Dogアプリ</h2>
       </header>
       <img src={dogUrl} alt="dog" />
-      <button onClick={fetchDogImage}>更新</button>
+      <button onClick={fetchDogImage} className='update'>更新</button>
     </div>
   )
 }
